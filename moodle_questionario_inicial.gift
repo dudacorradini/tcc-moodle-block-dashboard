@@ -1,0 +1,221 @@
+
+// ::Projetos dificuldade em programação::
+// Mover para categoria $course$/top/Padrao para MAT0110-2022
+$CATEGORY: $course$/top/Dificuldade em Programacao (2022)
+
+// ::Queremos conhecer você!::
+// Olá,
+// \n
+// Este questionário faz parte do projeto para melhor entender as dificuldades
+// com o aprendizado inicial de algoritmos e programação.
+// Ressaltamos que não serão tornados públicos os nomes dos participantes de forma alguma e que a participação ou não na pesquisa em nada impactará em sua nota.
+// Ao responder este questionário você está concondando livremente em participar desta pesquisa.
+// Você pode pegar um cópia do protocolo de consentimento livre esclarecido na página do curso.
+// O alvo desse questionário é saber um pouco sobre sua formação e conhecimento prelimintar.
+// \n
+// Agradecemos antecipadamente sua colaboração.
+
+//Pergunta 01
+::QconhecVc_2022_01::Sua escola no Ensino Médio era\: {
+    =Pública
+    ~Privada
+    ~Em alguns anos pública, noutros privada
+}
+
+
+//Pergunta 02
+::QconhecVc_2022_02::Qual foi seu processo de entrada na Poli? {
+    =Fuvest
+    ~SISU
+    ~Transferência
+}
+
+//Pergunta 03
+::QconhecVc_2022_03::Qual é seu curso? {
+    =Licenciatura em Matemática noturna
+    ~Licenciatura em Matemática diurna
+    ~Bacharelado em Ciência da Computação
+    ~Bacharelado em Estatística
+    ~Bacharelado em Matemática
+    ~Bacharelado em Matemática Aplicada 
+    ~Bacharelado em Matemática Aplicada e Computacional (noturno)
+    ~Outro curso na USP
+}
+
+//Pergunta 04
+::QconhecVc_2022_04::Em qual ano você ingressou na USP? {
+    =2022
+    ~2021
+    ~2020
+    ~2019
+    ~2018
+    ~2017
+    ~2016
+    ~2015
+    ~2014
+    ~2013
+    ~2012
+    ~2011
+    ~2010
+    ~Antes de 2010
+}
+
+//Pergunta 05
+::QconhecVc_2022_05::Qual era seu conhecimento em programação ANTES de entrar no IME-USP? {
+    =Nenhum conhecimento
+    ~Conheço quase nada
+    ~Conheço pouco
+    ~Conhecimento médio
+    ~Bom conhecimento
+    ~Ótimo conhecimento
+}
+
+//Pergunta 06
+::QconhecVc_2022_06::Quanto você considera saber (hoje) de programação? {
+    =Nenhum conhecimento
+    ~Conheço quase nada
+    ~Conheço pouco
+    ~Conhecimento médio
+    ~Bom conhecimento
+    ~Ótimo conhecimento
+}
+
+//Pergunta 07
+::QconhecVc_2022_07::Como você avalia seu conhecimento em informática? {
+    =Não tenho conhecimento algum em informática
+    ~Básico (e.g. sei utilizar o navegador/"browser" para acessar a Internet, consigo localizar e abrir um arquivo de texto)
+    ~Intermediário (e.g. sei o que é um diretório/pasta, sei manipular arquivos entre as diretórios/pastas, realizar "downloads")
+    ~Avançado (e.g. sei utilizar o terminal para executar comandos)
+}
+
+//Pergunta 08
+::QconhecVc_2022_08::Como você avalia seu conhecimento em inglês? {
+    =Não tenho conhecimento algum em inglês.
+    ~Básico (e.g. preciso de ajuda de tradutor para entender um texto)
+    ~Intermediário (e.g. consigo entender um texto sozinho, mas tenho dificuldade na escrita/fala)
+    ~Avançado (e.g. consigo entender, escrever e conversar)
+}
+
+//Pergunta 09
+::QconhecVc_2022_09::Você já cursou uma disciplina de programação na USP? (ou seja, se matriculou e assistiu ao menos algumas aulas) {
+    =Sim
+    ~Não
+}
+
+// Tem que entrar como rotulo!
+// ::QconhecVc_2022_09.1::Description
+//Caso sim:
+//::Caso tenha respondido "sim" ao item anterior, responda às questões abaixo.::
+//Caso tenha respondido "não", vá direto para à questão 15.
+
+//Pergunta 10
+::QconhecVc_2022_10::Indique a disciplina de programação que fez anteriormente {
+    ~MAC110
+    ~MAC115
+    =MAC2166
+    ~Outra
+}
+
+//Pergunta 11
+::QconhecVc_2022_11::Considerando a última vez que você cursou a disciplina do item anterior, com qual frequência (assistiu às aulas)? {
+ =0 a 25%
+ ~26% a 50%
+ ~51% a 75%
+ ~76% a 100%
+}
+
+//Pergunta 12
+::QconhecVc_2022_12::Qual foi a sua nota final nas provas? {
+    =0.0 <\= x < 3.0
+    ~3.0 <\= x < 5.0
+    ~5.0 <\= x < 7.5
+    ~7.5 <\= x <\= 10.0
+    ~No oferecimento que cursei não houve aplicação de prova.
+}
+
+//Pergunta 13
+::QconhecVc_2022_13::Qual foi a sua nota final nos EP (Exercícios-Programa)? {
+    =0.0 <\= x < 3.0
+    ~3.0 <\= x < 5.0
+    ~5.0 <\= x < 7.5
+    ~7.5 <\= x <\= 10.0
+    ~No oferecimento que cursei não houve aplicação de EP.
+}
+
+//Pergunta 14
+::QconhecVc_2022_14::Qual foi a sua nota final nas atividades de programação (caso tenham acontecido na disciplina cursada)? {
+    =0.0 <\= x < 3.0
+    ~3.0 <\= x < 5.0
+    ~5.0 <\= x < 7.5
+    ~7.5 <\= x <\= 10.0
+    ~Não consigo recuperar esta informação.
+    ~No oferecimento que cursei não houve aplicação de atividades.
+}
+
+//Pergunta 15
+::QconhecVc_2022_15::Se desejar registrar algum comentário sobre a disciplina de programação que curso, por favor, registre-o aqui. {}
+
+//Pergunta 16
+::QconhecVc_2022_16::Assinale abaixo as disciplinas que você já cursou\: {
+    ~%10%Cálculo 1
+    ~%10%Cálculo 2
+    ~%10%Cálculo 3
+    ~%10%Cálculo 4
+    ~%10%Álgebra Linear 1
+    ~%10%Álgebra Linear 2
+}
+
+//Pergunta 17
+::QconhecVc_2022_17::Assinale abaixo as disciplinas nas quais você já foi aprovado\: {
+    ~%10%Cálculo 1
+    ~%10%Cálculo 2
+    ~%10%Cálculo 3
+    ~%10%Cálculo 4
+    ~%10%Álgebra Linear 1
+    ~%10%Álgebra Linear 2
+}
+
+// Considerando esta edição da disciplina MAC110 (2022)
+
+//Pergunta 18
+::QconhecVc_2022_18::Considerando está edição da disciplina MAC110, classifique as suas dificuldades em cada um dos itens.
+Para cada item as opções são: Nenhuma dificuldade; Pouca dificuldade; Dificuldade razoável; Muita dificuldade; Dificuldade extrema.
+Cuidado ao selecionar a opções, pois elas podem aparecer em outra ordem. {
+    =Entender o conteúdo da matéria                                                                                                         -> Nenhuma dificuldade
+    =Entender as aulas que assisti                                                                                                          -> Nenhuma dificuldade
+    =Memorizar os conteúdos                                                                                                                 -> Nenhuma dificuldade
+    =Ter uma linha de raciocínio lógica para construir um programa                                                                          -> Nenhuma dificuldade
+    =Linguagem de programação (e.g. problemas com a sintaxe ou com o compilador/interpretador)                                              -> Nenhuma dificuldade
+    =Estruturas de programação (e.g. de estruturas "if", "else", "while", "for", …)                                                         -> Nenhuma dificuldade
+    =Variáveis (e.g. int, float, double, diferenciar as variáveis, fazer conversão de tipos, …)                                             -> Pouca dificuldade
+    =Estruturas homogêneas (e.g. matrizes, vetores)                                                                                         -> Dificuldade razoável
+    =Conseguir resolver os problemas (encontrar solução algoritmica para o problema dado)                                                   -> Muita dificuldade
+    =Encontrar erros no código sem o compilador (e.g. quando realizo um exercício no papel, consigo identificar meus erros com facilidade)  -> Dificuldade extrema
+ }
+
+//Pergunta 19
+::QconhecVc_2022_19::Em relação ao MAC110 deste semestre, como você classifica sua dificuldade/facilidade em resolver os problemas propostos? (sem qualquer ajuda) {
+  =Muito difícil
+  ~Difícil
+  ~Nem fácil, nem difícil
+  ~Fácil
+  ~Muito fácil
+ }
+
+//Pergunta 20
+::QconhecVc_2022_20::Considerando os problemas problemas propostos no MAC110 deste semestre, por favor, cite quais você conseguiu resolver sem qualquer ajuda. {}
+
+
+//Pergunta 21
+::QconhecVc_2022_21::Considerando os problemas problemas propostos no MAC110 deste semestre, por favor, cite quais você conseguiu resolver com alguma ajuda. {}
+
+
+//Pergunta 22
+::QconhecVc_2022_22::Considerando os problemas problemas propostos no MAC110 deste semestre, por favor, cite quais você tentou, mas não conseguiu resolver de modo algum. {}
+
+
+//Pergunta 23
+::QconhecVc_2022_23::Considerando os problemas problemas propostos no MAC110 deste semestre, por favor, cite as dificuldades que tem encontrado no MAC110. {}
+
+//Pergunta 24
+::QconhecVc_2022_24::Se desejar, registre observações/sugestões para o MAC110 deste semestre. {}

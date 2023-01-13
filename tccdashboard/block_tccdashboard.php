@@ -60,14 +60,14 @@ class block_tccdashboard extends block_base {
 		$this->content =  new stdClass;
 	
 		$this->content->text = "
-	  		<br> Entre aqui para ver as análises sobre os alunos
+	  		<br> Entre aqui para ver as análises sobre os alunos.
 	  		<br> No curso atual, temos {$count} submissões no iTarefa.";
 		
-		$this->content->text .= "<br> A média atual da turma é de {$average}"; 
+		$this->content->text .= "<br> A média atual da turma é de {$average} <br>"; 
 		//botão para página do dashboard 
 		$parameters = array('id'=>$COURSE->id);
 		$url = new moodle_url('/blocks/tccdashboard/view.php', $parameters);
-		$this->content->text .= "<center>" . $OUTPUT->single_button($url, "Saiba mais") . "</center>";
+		$this->content->text .= "<br><center>" . $OUTPUT->single_button($url, "Saiba mais") . "</center>";
 		return $this->content;
 	
 	  }

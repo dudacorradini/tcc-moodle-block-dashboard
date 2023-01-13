@@ -20,6 +20,6 @@
  * @package   block_tccdashboard
  */
 
-$string['block_tccdashboard'] = 'Data students analysis';
-$string['pluginname'] = 'Data students analysis';
-$string['blocktitle'] = 'Data students analysis';
+$string['block_tccdashboard'] = 'Análise de dados dos estudantes';
+$string['pluginname'] = 'Análise de dados dos estudantes';
+$string['blocktitle'] = 'Análise de dados dos estudantes';
